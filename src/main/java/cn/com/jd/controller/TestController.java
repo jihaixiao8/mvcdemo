@@ -26,7 +26,7 @@ public class TestController {
 	public void addUser(HttpServletRequest request,HttpServletResponse response){
 		try {
 			userService.getUser("10000", 12);
-			
+			System.out.println("yes");
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
